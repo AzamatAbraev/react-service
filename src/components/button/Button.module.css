@@ -1,0 +1,18 @@
+.nav-btn {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 14px;
+  background: #0075ff;
+  padding: 18px 24px;
+  border: 1px solid #0075ff;
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  background-color: #fff;
+  border: 1px solid #0075ff;
+  color: #0075ff;
+}

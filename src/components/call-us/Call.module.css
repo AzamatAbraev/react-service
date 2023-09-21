@@ -1,0 +1,36 @@
+.call-us {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.call-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.call-desc {
+  color: #6e7191;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.call-number {
+  color: #211f54;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.008px;
+}
+
+@media (max-width: 600px) {
+  .call-us {
+    gap: 10px;
+  }
+  .call-number {
+    font-size: 24px;
+  }
+}
