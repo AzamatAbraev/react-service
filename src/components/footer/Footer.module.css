@@ -1,0 +1,143 @@
+footer {
+  padding-top: 140px;
+  padding-bottom: 30px;
+}
+
+.footer-top {
+  margin-bottom: 117px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+}
+
+.rectangle-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.rectangle {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #edf5ff;
+}
+
+.col-title,
+.col2-title,
+.col3-title,
+.col4-title {
+  color: #211f54;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36.008px;
+  margin-bottom: 7px;
+}
+
+.col4-number {
+  color: #0075ff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.008px;
+}
+
+.col-title {
+  font-size: 28px;
+}
+
+.col2-title {
+  font-size: 20px;
+  margin-bottom: 34px;
+}
+
+.col-desc,
+.col2-desc,
+.col3-desc,
+.col4-desc {
+  color: #6e7191;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.006px;
+  margin-bottom: 34px;
+}
+
+.col2-desc {
+  margin-bottom: 14px;
+}
+
+.col3-desc,
+.col4-desc {
+  margin-bottom: 14px;
+}
+
+.footer-bottom {
+  padding-top: 43px;
+  border-top: 1px solid #eff0f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-desc {
+  color: #6e7191;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.006px;
+}
+
+.footer-owner {
+  color: #0075ff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.006px;
+  cursor: pointer;
+  padding-left: 4px;
+}
+
+.footer-owner:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 950px) {
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 38px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    row-gap: 38px;
+  }
+
+  .footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-top {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    row-gap: 30px;
+  }
+}
